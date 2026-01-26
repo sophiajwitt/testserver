@@ -20,8 +20,8 @@ jobs:
               env:
                 PORTER_APP_NAME: testserver
                 PORTER_CLUSTER: "1"
-                PORTER_DEPLOYMENT_TARGET_ID: a540998e-d5ca-47a7-9ada-fbeea90cb2cf
-                PORTER_HOST: https://yosefdev2.withporter.run
+                PORTER_DEPLOYMENT_TARGET_ID: 78514951-b49b-49dc-ad93-9990de40e405
+                PORTER_HOST: https://witt.withporter.run
                 PORTER_PROJECT: "1"
                 PORTER_TAG: ${{ steps.vars.outputs.sha_short }}
-                PORTER_TOKEN: ${{ secrets.PORTER_APP_1_869731671 }}
+                PORTER_TOKEN: ${{ secrets.PORTER_APP_1_1104090397 }}
